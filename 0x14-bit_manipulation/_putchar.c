@@ -1,11 +1,8 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * _putchar - write the char c 2 stdout
- * @c : The char 2 print
- *
- * Return : if success 1.
- * if error, -1 is returned, and error is set appropriately
+ * _putchar - Write char 'c' to stdout
+ * Return: 1 on success, -1 on error
  */
 int _putchar(char c)
 {
