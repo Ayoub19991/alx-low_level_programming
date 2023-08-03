@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * set_bit set a bit at a given index to 1
- * @n : pointer to d num 2 change
- * @index : index of d bit 2 set to 1
+ * set_bit - Set a bit at a given index to 1 in a decimal number.
+ * @n: Pointer to the number to change.
+ * @index: Index of the bit to set to 1.
  *
- * Return : 1 if success, -1 if fail
+ * Return: 1 if successful, -1 if failed.
  */
+
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (index > 63)
